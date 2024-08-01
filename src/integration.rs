@@ -82,7 +82,7 @@ impl Gui {
     /// This is to be called once we have access to vulkano_win's winit window surface
     /// and gfx queue. Created with this, the renderer will own a render pass which is useful to e.g. place your render pass' images
     /// onto egui windows
-    pub fn new<T>(
+    pub fn new(
         event_loop: &ActiveEventLoop,
         surface: Arc<Surface>,
         gfx_queue: Arc<Queue>,
