@@ -130,6 +130,7 @@ impl Gui {
             viewport_id,
             event_loop,
             Some(surface_window(&surface).scale_factor() as f32),
+            None,
             Some(max_texture_side),
         );
         Gui {
