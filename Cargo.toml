@@ -23,7 +23,7 @@ ahash = "0.8.11"
 egui-winit = {  git = "https://github.com/emilk/egui/", default-features = false }
 egui = {git = "https://github.com/emilk/egui/"}
 image = { version = "0.24.5", optional = true }
-winit = {version = "0.30.2", default-features = false, features = ["rwh_06"]}
+winit = {version = "0.30.5", default-features = false, features = ["rwh_06"]}
 vulkano = "0.34.1"
 vulkano-shaders = "0.34"
 
